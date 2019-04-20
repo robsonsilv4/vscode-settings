@@ -1,0 +1,23 @@
+{
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code', monospace",
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true
+  },
+  "python.formatting.autopep8Path": "/usr/bin/autopep8",
+
+  "python.linting.pylintPath": "/usr/bin/pylint",
+  "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+  
+  "python.sortImports.path": "/usr/bin/isort"
+}
